@@ -1,58 +1,42 @@
-# 💰 Value at Risk (VaR) Calculator
+# 📉 Value at Risk (VaR) Calculator
 
-This project implements a Value at Risk (VaR) calculator using two widely-used methods:
+This project provides a simple and interactive Value at Risk (VaR) calculator built using Python. It allows users to estimate the potential loss in the value of a financial portfolio over a defined period for a given confidence interval.
 
-- 📉 **Historical Method**  
-- 🧠 **Parametric (Gaussian) Method**
+## 💡 What is Value at Risk?
 
----
+**Value at Risk (VaR)** is a widely used risk measure in finance that quantifies the potential loss in value of a portfolio over a specified time period, under normal market conditions, at a given confidence level.
 
-## 📊 What is Value at Risk?
-
-**VaR** measures the potential loss in value of an asset or portfolio over a given time period with a certain confidence level.
-
-> Example:  
-> _"There is a 95% chance the portfolio will not lose more than ₹X in a day."_
+For example:  
+> "With 95% confidence, the portfolio will not lose more than ₹50,000 over the next 10 days."
 
 ---
 
-## 📂 Project Structure
+## 🔧 Features
 
-- `var_calculator.ipynb`:  
-  The main Jupyter Notebook with:
-  - Return simulation  
-  - Historical VaR  
-  - Parametric VaR  
-  - Plotting distribution
+- 📊 Calculates VaR using:
+  - Parametric (Variance-Covariance) method
+  - Historical Simulation method *(optional - if implemented)*
+- 📁 Supports uploading your own dataset of portfolio returns *(if applicable)*
+- 🖥️ Built as a clean, modular Jupyter Notebook
+- 📈 Visualizes returns distribution and highlights the VaR line
+- 🧮 User-defined confidence levels and holding periods
 
 ---
 
-## 🔧 Tech Stack
+## 🧰 Technologies Used
 
-- Python 🐍
-- NumPy
+- Python 3.x
 - Pandas
-- Matplotlib
+- NumPy
+- Matplotlib / Seaborn
+- Jupyter Notebook
 
 ---
 
-## 📌 Sample Plot
+## 🚀 How to Run
 
-> _VaR lines shown on the distribution of returns._
+1. Clone the repository:
 
-![VaR Graph](<OPTIONAL: add screenshot image link if you'd like>)
-
----
-
-## 📚 Future Plans
-
-- Add Monte Carlo VaR
-- Add Portfolio-level VaR from real stock data
-- Deploy as Streamlit web app
-
----
-
-## ✨ Author
-
-Soumya Upadhyaya  
-🔗 [LinkedIn](https://www.linkedin.com/in/yourprofile) | 📊 [GitHub Portfolio](https://github.com/Soumya-8)
+   ```bash
+   git clone https://github.com/Soumya-8/value-at-risk-calculator.git
+   cd value-at-risk-calculator
