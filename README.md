@@ -1,58 +1,51 @@
-# 💰 Value at Risk (VaR) Calculator
+# 📉 Value at Risk (VaR) Calculator
 
-This project implements a Value at Risk (VaR) calculator using two widely-used methods:
-
-- 📉 **Historical Method**  
-- 🧠 **Parametric (Gaussian) Method**
+This project provides a simple and interactive **Value at Risk (VaR)** calculator built using Python.  
+It estimates the potential loss in a financial portfolio over a specified period and confidence interval.
 
 ---
 
-## 📊 What is Value at Risk?
+## 💡 What is Value at Risk?
 
-**VaR** measures the potential loss in value of an asset or portfolio over a given time period with a certain confidence level.
+**Value at Risk (VaR)** is a widely used risk metric in finance.  
+It answers questions like:
 
-> Example:  
-> _"There is a 95% chance the portfolio will not lose more than ₹X in a day."_
-
----
-
-## 📂 Project Structure
-
-- `var_calculator.ipynb`:  
-  The main Jupyter Notebook with:
-  - Return simulation  
-  - Historical VaR  
-  - Parametric VaR  
-  - Plotting distribution
+> “With 95% confidence, the portfolio will not lose more than ₹50,000 over the next 10 days.”
 
 ---
 
-## 🔧 Tech Stack
+## 🔧 Features
 
-- Python 🐍
-- NumPy
-- Pandas
-- Matplotlib
+✅ Calculates VaR using:
+- Parametric (Variance-Covariance) method  
+- Historical Simulation method *(optional if implemented)*
 
----
-
-## 📌 Sample Plot
-
-> _VaR lines shown on the distribution of returns._
-
-![VaR Graph](<OPTIONAL: add screenshot image link if you'd like>)
+✅ Interactive notebook with:
+- Clean and modular Python code
+- User-defined confidence levels & holding periods
+- Returns distribution visualization with VaR line
 
 ---
 
-## 📚 Future Plans
+## 📊 Sample Output
 
-- Add Monte Carlo VaR
-- Add Portfolio-level VaR from real stock data
-- Deploy as Streamlit web app
+![Sample VaR Plot](images/var_sample_plot.png)
 
 ---
 
-## ✨ Author
+## 🧰 Technologies Used
 
-Soumya Upadhyaya  
-🔗 [LinkedIn](https://www.linkedin.com/in/yourprofile) | 📊 [GitHub Portfolio](https://github.com/Soumya-8)
+- Python 3.x  
+- Pandas  
+- NumPy  
+- Matplotlib / Seaborn  
+- Jupyter Notebook  
+
+---
+
+## 🚀 How to Run
+![Value at Risk - Sample Plot](var image.png)
+```bash
+git clone https://github.com/Soumya-8/value-at-risk-calculator.git
+cd value-at-risk-calculator
+
