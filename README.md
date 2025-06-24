@@ -44,7 +44,8 @@ It answers questions like:
 ---
 
 ## 🚀 How to Run
-
+![Value at Risk - Sample Plot](var image.png)
 ```bash
 git clone https://github.com/Soumya-8/value-at-risk-calculator.git
 cd value-at-risk-calculator
+
